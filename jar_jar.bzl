@@ -56,12 +56,12 @@ def jar_jar_repositories(servers=["https://repo1.maven.org/maven2"]):
     "jarjar",
     servers)
   _mvn_jar(
-    "org.ow2.asm:asm:7.0",
-    "b88ef66468b3c978ad0c97fd6e90979e56155b4ac69089ba7a44e9aa7ffe9acf",
+    "org.ow2.asm:asm:9.3",
+    "1263369b59e29c943918de11d6d6152e2ec6085ce63e5710516f8c67d368e4bc",
     "asm",
     servers)
   _mvn_jar(
-    "org.ow2.asm:asm-commons:7.0",
-    "fed348ef05958e3e846a3ac074a12af5f7936ef3d21ce44a62c4fa08a771927d",
+    "org.ow2.asm:asm-commons:9.3",
+    "a347c24732db2aead106b6e5996a015b06a3ef86e790a4f75b61761f0d2f7f39",
     "asm_commons",
     servers)
